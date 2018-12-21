@@ -31,7 +31,7 @@ client.on('message', msg => {
 
 client2.on('message', msg => {
 
-    if (msg.content == '$join') {
+    if (msg.content == '$in') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -43,7 +43,7 @@ client2.on('message', msg => {
 
 client3.on('message', msg => {
 
-    if (msg.content == '$join') {
+    if (msg.content == '$in') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
