@@ -18,7 +18,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 
-    if (msg.content == '$join') {
+    if (msg.content == '$in') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
