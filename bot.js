@@ -18,7 +18,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 
-    if (msg.content == '$in') {
+    if (msg.content == '015') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -31,7 +31,7 @@ client.on('message', msg => {
 
 client2.on('message', msg => {
 
-    if (msg.content == '$in') {
+    if (msg.content == '016') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -43,7 +43,7 @@ client2.on('message', msg => {
 
 client3.on('message', msg => {
 
-    if (msg.content == '$in') {
+    if (msg.content == '017') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
